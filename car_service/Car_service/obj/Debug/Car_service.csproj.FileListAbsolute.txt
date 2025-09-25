@@ -1,0 +1,10 @@
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.csproj.AssemblyReference.cache
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.Form1.resources
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.Properties.Resources.resources
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.csproj.GenerateResource.cache
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.csproj.CoreCompileInputs.cache
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\bin\Debug\Car_service.exe.config
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\bin\Debug\Car_service.exe
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\bin\Debug\Car_service.pdb
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.exe
+C:\Users\bonda\OneDrive\Рабочий стол\практика\Car_service\Car_service\obj\Debug\Car_service.pdb

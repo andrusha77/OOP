@@ -30,6 +30,10 @@ int main() {
 		cout << "2 - сума елементів i-го стовпця" << endl;
 		cout << "3 - кількість нулів" << endl;
 		cout << "4 - встановити діагональ" << endl;
+		cout << "5 - інкремент" << endl;
+		cout << "6 - декремент" << endl;
+		cout << "7 - перевірка чи матриця квадратна" << endl;
+		cout << "8 - додавання матриць" << endl;
 		cout << "0 - вихід" << endl;
 		cin >> k;
 		switch (k)
@@ -57,6 +61,47 @@ int main() {
 			arr.output();
 			break;
 		}
+		case 5:
+			++arr;
+			cout << "Після інкременту:\n";
+			arr.output();
+			break;
+		case 6:
+			--arr;
+			cout << "Після декременту:\n";
+			arr.output();
+			break;
+		case 7:
+			if (arr) {
+				cout << "Матриця є квадратною." << endl;
+			}
+			else {
+				cout << "Матриця не є квадратною." << endl;
+			}
+			break;
+		case 8:
+			if (count == 0) {
+				cout << "Спочатку створіть першу матрицю." << endl;
+				break;
+			}
+			else {
+				int n2, j2;
+				cout << "Введіть розмір другої матриці (n x j): " << endl << "n = ";
+				cin >> n2;
+				cout << "j = ";
+				cin >> j2;
+				if (n2 != n || j2 != j) {
+					cout << "Матриці повинні бути однакового розміру для додавання." << endl;
+					break;
+				}
+				IntMatrix arr2(n2, j2);
+				arr2.input();
+				IntMatrix arrSum = arr + arr2;
+				cout << "Результат додавання:\n";
+				arrSum.output();
+				
+			}
+			break;
 		default:
 			break;
 		}
